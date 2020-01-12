@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         content.body = "Has entrado o salido de Paradigma"
         content.categoryIdentifier = "message"
         
+        let latitude = UserDefaults.standard.double(forKey: "location_latitude")
+        let longitude = UserDefaults.standard.double(forKey: "location_longitude")
+        //let center = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         let center = CLLocationCoordinate2D(latitude: 40.440342, longitude: -3.787071)
         let region = CLCircularRegion(center: center, radius: 500.0, identifier: "Headquarters")
         region.notifyOnEntry = true
