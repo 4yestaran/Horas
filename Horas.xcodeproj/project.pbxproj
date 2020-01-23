@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		61B1CACD23CA5B75003C1CC0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		61B1CACF23D51613003C1CC0 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		61B1F6AD237C5D0D00661FED /* Horas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B1F6B0237C5D0D00661FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61B1F6B2237C5D0D00661FED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		61B1F6AF237C5D0D00661FED /* Horas */ = {
 			isa = PBXGroup;
 			children = (
+				61B1CACF23D51613003C1CC0 /* MyPlayground.playground */,
 				61B1F6B0237C5D0D00661FED /* AppDelegate.swift */,
 				61B1F6B2237C5D0D00661FED /* SceneDelegate.swift */,
 				61B1F6B4237C5D0D00661FED /* ViewController.swift */,

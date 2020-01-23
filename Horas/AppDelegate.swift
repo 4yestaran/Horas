@@ -7,12 +7,9 @@
 //
 
 import UIKit
-import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    var locationManager = CLLocationManager()
-    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -21,8 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Enable or disable features based on authorization.
         }
 
-        //locationManager.requestAlwaysAuthorization()
-        locationManager.requestWhenInUseAuthorization()
+        for (key, value) in UserDefaults.standard.dictionaryRepresentation() {
+                   print("\(key) = \(value) \n")
+        }
+        
         return true
     }
 
@@ -42,4 +41,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
